@@ -70,6 +70,10 @@ class Machine_job
         // следующая часть кода описывает взаимодействие человека с автоматом
         for (; ; )
         {
+			Console.WriteLine("Предлагаются следующие продукты");
+			Console.WriteLine("Кексы имеют идентификатор 1");
+			Console.WriteLine("Печенье имеет идентификатор 2");
+			Console.WriteLine("Вафли имеют идентификатор 3");
             Console.WriteLine("Внесите деньги в приемник монет");
             Console.WriteLine("Введите через Enter монеты, которые вы хотите внести в автомат");
             Console.WriteLine("Когда посчитаете сумму денег достаточной введите 0 (ноль) и нажмите Enter");
@@ -136,7 +140,7 @@ class Machine_job
                 if (b < number_rub_machine[2])
                 {
                     Sum -= b * 5;
-                    number_rub_machine[3] -= b;
+                    number_rub_machine[2] -= b;
                     Console.Write(b + " монет по 5 рублей, \n");
                 }
                 else
@@ -150,7 +154,7 @@ class Machine_job
                 if (c < number_rub_machine[1])
                 {
                     Sum -= c * 2;
-                    number_rub_machine[3] -= c;
+                    number_rub_machine[1] -= c;
                     Console.Write(c + " монет по 2 рубля, \n");
                 }
                 else
@@ -167,9 +171,9 @@ class Machine_job
                 }
                 else
                 {
-                    Sum -= number_rub_machine[1];                    
-                    Console.Write(number_rub_machine[1] + " монет по 1 рублю, \n");
-                    number_rub_machine[1] = 0;
+                    Sum -= number_rub_machine[0];                    
+                    Console.Write(number_rub_machine[0] + " монет по 1 рублю, \n");
+                    number_rub_machine[0] = 0;
                     Console.WriteLine("Вы не получили сдачу доконца, обратитесь пожалуйста к администратору автомата");
                     break;
                 }
