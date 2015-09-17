@@ -1,0 +1,6 @@
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\bin\Debug\Project6.exe.config
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\bin\Debug\Project6.exe
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\bin\Debug\Project6.pdb
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\obj\Debug\Project6.csprojResolveAssemblyReference.cache
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\obj\Debug\Project6.exe
+c:\users\денис\documents\visual studio 2012\Projects\Project6\Project6\obj\Debug\Project6.pdb
